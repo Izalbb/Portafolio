@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #b5bac9;
+}
+.hoja{
+	margin: auto;
+	width: 960px;
+	height: 650px;
+	padding: 5px;
+}
+.encabezado{
+	width: 100%;
+	float: left;
+	margin: auto;
+	height: 15%;
+
+}
+.logoimg{
+	margin-top: 2%;
+	margin-left: 5%;
+	float: inherit;
+}
+.titulo{
+	margin: 0px;
+    margin-left: 30%;
+    margin-top: 3.5%;
+	float: inherit;
+}
+.izquierdo{
+	float: left;
+	width: 70%;
+	height: 70%;
+	border-radius: 24px;
+}
+.textoinicial{
+	margin: 55px;
+	float: left;
+	width: 80%;
+	height: 80%;
+	color: #666188;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background: #b5bac9;
+}
+.derecho{
+	float: right;
+	width: 30%;
+	height: auto;
+	border-radius: 24px;
+	background: white;
+}
+.muneco{
+	float: left;
+    object-fit: cover;
+    width: 99%;
+    height: 99%;
+    border-radius: 24px;
+    margin-left: 1px;
+}
+.nomsj{
+	text-align: center;
+	font-weight: bold;
+}
+#textoencriptado{
+	position: relative;
+	left: 8%;
+	margin-bottom: 5%;
+	border: none;
+	outline: none;
+	color: #0a3871;
+	font-size: 20px;
+}
+#copy{
+	margin-bottom: 6%;
+	padding: 15px;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 25%;
+	background: #D8DFE8;
+	display: none;
+}
+.leftButton{
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius: 24px;
+}
+.imgimportante{
+	margin-left: 10%;
+}
+.teximportante{
+	margin: 0;
+	margin-left: 13%;
+	margin-bottom: 5%;
+	margin-top: -2.5%;
+	font-size: 15px;
+}
+#btnencriptar{
+	padding: 15px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 15%;
+	background: #0A3871;
+}
+#btndesencriptar{
+	padding: 15px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 5%;
+	background: #D8DFE8;
+
+}
